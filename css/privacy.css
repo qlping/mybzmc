@@ -1,0 +1,41 @@
+/*主体*/
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+}
+.container .grid{
+  width:981px;
+  display:inline;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+/*title*/
+.container .grid .title{
+  color:#87AE82;
+  font-family:'Microsoft Yahei';
+  font-size:20px;
+  text-align:center;
+  margin-bottom:40px;
+  margin-top:40px;
+}
+/*center*/
+.container .grid .center{
+  font-size:14px;
+  line-height:24px;
+}
+
+
+
+
+
+
+/*line*/
+.container .grid .line{
+  font-family:'Microsoft Yahei';
+  font-size:20px;
+  text-align:right;
+  line-height:30px;
+}
+

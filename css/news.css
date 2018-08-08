@@ -1,0 +1,109 @@
+/*主体*/
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+}
+.container .grid{
+ width:981px;
+ display:inline;
+ float:left;
+ position:relative;
+ margin-left:8px;
+ margin-right:7px;
+}
+/*title*/
+.container .grid .title{
+  border-bottom:1px solid #DFD57E;
+  color:#87AE82;
+  text-align:center;
+  padding-bottom:30px;
+  margin-top:40px;
+  font-size:30px;
+}
+/*list*/
+.container .grid .nlist{
+  border-bottom:1px solid #DFD57E;
+  padding-bottom:50px;
+  margin-top:50px;
+}
+.container .grid .nlist .rt .tit a:hover{
+  text-decoration: underline;
+}
+.container .grid .nlist .lf,.container .grid .nlist .rt{
+  width:483px;
+}
+.container .grid .nlist .lf img{
+   display:inline;
+   width:480px;
+   height:250px;
+}
+.container .grid .nlist .rt .tit{
+   font-family:'Microsoft Yahei';
+   font-size:20px;
+}
+.container .grid .nlist .rt .tit a{
+  color:#87AE82;
+}
+.container .grid .nlist .rt .desc{
+  height:200px;
+  margin-top:40px;
+  line-height:30px;
+}
+.container .grid .nlist .rt .txt{
+  color:#999;
+  text-align:right;
+}
+
+
+/*pager*/
+.container .grid .pager{
+  text-align:center;
+  margin-bottom:40px;
+  margin-top:40px;
+}
+.container .grid .pager .page{
+  display:inline-block;
+}
+.container .grid .pager .page li{
+  display:block;
+  height:37px;
+  text-align:center;
+  line-height:37px;
+  font-size:14px;
+  width:37px;
+  margin-right:10px;
+}
+.container .grid .pager .page li span{
+  width:37px;
+  display:block;
+  height:37px;
+  text-align:center;
+  line-height:37px;
+  border:1px solid #EAEAEA;
+}
+.container .grid .pager .page li:nth-child(1){
+  width:72px;
+  margin-right:10px;
+}
+.container .grid .pager .page li:nth-child(1) span{
+  width:72px;
+}
+.container .grid .pager .page li:nth-child(2) span{
+  background-color:#87AE82;
+  color:#FFF;
+  border-color:#87AE82;
+}
+.container .grid .pager .page li a{
+  display:block;
+  width:37px;
+  height:37px;
+  text-align:center;
+  line-height:37px;
+  padding:0 8px;
+  border:1px solid #EAEAEA;
+  transition:.2s;
+}
+.container .grid .pager .page li:last-child a{
+  width:72px;
+}

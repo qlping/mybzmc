@@ -1,0 +1,303 @@
+/* 头部 */
+.header{
+  height:103px;
+  background-color:#B6D3B5;
+}
+.logo{
+  margin-left:40px !important;
+}
+.nav{
+  margin-left:40px;
+}
+.nav{
+  display:block;
+  -webkit-magin-before:1em;
+  -webkit-magin-after:1em;
+  -webkit-magin-start:0px;
+  -webkit-magin-end:0px;
+  -webkit-padding-estart:40px;
+}
+.nav li{
+  float:left;
+  display:inline-block;
+  height:100px;
+  text-align:center;
+}
+.nav li a{
+  position:relative;
+  display:block;
+  height:100px;
+  margin:0 20px;
+  font-size:18px;
+  color:#000;
+  padding-top:30px;
+  font-family:"Microsoft Yahei";
+  line-height:20px;
+}
+.nav li p{
+  font-size:12px;
+  display:block;
+  -webkit-magin-before:1em;
+  -webkit-magin-after:1em;
+  -webkit-magin-start:0px;
+  -webkit-magin-end:0px;
+}
+.nav li a .line{
+  position:absolute;
+  left:0;
+  bottom:20px;
+  width:0;
+  height:2px;
+  background-color:#fff;
+  transition:width .5s;
+  -moz-transition:width .5s;
+  -webkit-transition:winth .5s;
+  -o-transition:width .5s;
+}
+.list{
+  margin-right:50px !important;
+  margin-top:-66px !important;
+}
+.list:hover{
+  text-decoration:underline;
+}
+.list a{
+  color:#000;
+}
+.list .login a{
+  color:#000; 
+}
+.list .login span{
+  margin-left:5px !important;
+  margin-right:5px !important;
+}
+.list .shopping-car{
+  background:url(icon_shoppingcar.gif) no-repeat left center;
+  padding-left:25px;
+  padding-right:10px;
+  position:relative;
+  margin-left:20px !important;
+  margin-top:-20px;
+}
+.list .shopping-car a{
+  display:block;
+  margin-top:20px;
+  color:#000;
+}
+.list .shopping-car span{
+  display:inline-block;
+  position:relative;
+  right:0;
+  top:-8px;
+  height:16px;
+  line-height:15px;
+  z-index:300;
+}
+.list .lxkf{
+  background:url(icon_custom.gif) no-repeat right center;
+  padding-right:10px;
+}
+.list .lxkf a{
+  color:#000;
+}
+.wechat{
+  display:none;
+  position:absolute;
+  right:13px;
+  top:60px;
+  width:150px;
+  height:160px;
+  z-index:9999;
+}
+/* 底部 */
+.footer{
+  padding:40px 0;
+  background-color:#A7C9A6;
+  color:#fff;
+  margin-top:40px !imprtant;
+}
+.footer .grid{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+}
+.footer .grid-12{
+  width:981px; 
+  display:inline;
+  float:left;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+.footer .grid-12 .link{
+  margin-top:10px !important;
+  /* height:35px; */
+}
+.footer .grid-12 .link a{
+  color:#fff;
+}
+.footer .grid-12 .link span{
+  margin:0 25px;
+  color:#fff;
+}
+.footer .grid-12 .img .weibo{
+  margin-right:10px !important;
+}
+.footer .grid-12 .img .wechat2{
+  position:relative;
+  margin-right:30px !important;
+}
+.footer .grid-12 .img .phone{
+  margin-top:5px !important;
+}
+.footer .grid-13{
+  width:981px;
+  display:inline;
+  float:left;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+  padding-top:40px !important; 
+}
+.footer .grid-13 .txt-center{
+  font-family:'Microsft Yahei' !important;
+  text-align:center;
+  
+}
+.footer .grid-13 .txt-center2{
+  font-family:'Microsft Yahei' !important;
+  text-align:center;
+  margin-top:10px !important;
+}
+.footer .grid-13 .txt-center2 a{
+   color:#fff;
+}
+/* 主体 */
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+  /* display:block; */
+}
+/* 上：导航 */
+.container .gird{
+  width:981px;
+  display:inline;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+.container .gird .left{
+  margin-top:40px !important;
+  margin-bottom:40px !important;
+}
+.container .gird .left a{
+  color:#727171;
+}
+
+.container .gird .right{
+  margin-top:35px !important;
+}
+.container .gird .right .in-txt{
+  width:150px;
+  height:24px;
+  border:1px solid #87AE82;
+  padding:0 10px;
+}
+.container .gird .right input{
+  -webkit-appearance:textfield;
+  background-color:white;
+  -webkit-rtl-ordering:logical;
+  user-select:text;
+  cursor:auto;
+}
+.container .gird .right .btn_search{
+  display:block;
+  width:55px;
+  height:24px;
+  border:none;
+  background:url(../img/buytea/icon_search.gif) no-repeat 0 0;
+}
+/* 左：列表  */
+.container .list-tea{
+  width:151px;
+  display:inline;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+.container .list-tea .tea_type{
+  width:140px;
+  margin-bottom:20px;
+}
+.container .list-tea .tea_type .top .tea_name{
+  height:40px;
+  line-height:40px;
+  background:#87AE82;
+  color:#fff;
+  font-family:'Mircosoft Yahei' !important;
+  font-size:18px;
+  text-align:center;
+}
+.container .list-tea .tea_type .top .tea_name .menu li{
+  position:relative;
+  height:40px;
+  line-height:40px;
+  display:list-item;
+  text-align:-webkit-match-parent;
+}
+.container .list-tea .tea_type .top a{
+  padding-left:20px;  
+  display:block;
+  width:140px;
+  height:40px;
+  line-height:40px;
+  color:#000;
+  font-size:14px;
+}
+/* tea-list */
+.container .tea-list{
+  display:inline-block;
+  width:251px;
+  margin:0 10px;
+  margin-bottom:40px;
+}
+.container .tea-list img{
+  width:251px;
+}
+.container .tea-list .know{
+  margin-top:20px;
+}
+.container .tea-list .know a{
+  display:block;
+  width:150px;
+  height:40px;
+  line-height:40px;
+  text-align:center;
+  margin:0 auto;
+  border:1px solid #2A2A2A;
+  color:#2A2A2A;
+  font-size:16px;
+}
+.container .tea-list .about{
+  position:relative;
+  text-align:center;
+  margin-top:20px;
+}
+.container .tea-list .about .relize{
+  text-align:center;
+}
+.container .tea-list .about .relize p:nth-child(1){
+  color:#2A2A2A;
+  font-size:16px;
+  text-align:center;
+}
+.container .tea-list .about .relize p:nth-child(2){
+  margin-top:10px;
+  text-align:center;
+ }
+.container .tea-list .about .relize p:nth-child(3){
+  margin-top:5px;
+  text-align:center;
+ }
+

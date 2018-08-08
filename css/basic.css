@@ -1,0 +1,319 @@
+.lf{
+  float:left;
+}
+.rt{
+  float:right;
+}
+ul,ol{
+  list-style-type:none;
+}
+a{
+  text-decoration:none;
+}
+body{
+  color:#727171;
+  min-width:996px;
+  font-size:14px;
+  font-family:'宋体','Simsun';
+}
+.clearfix{
+  zoom:1;
+}
+.clearfix:before{
+  content:'\0020';
+  display:block;
+  overflow:hidden;
+  visibility:hidden;
+  width:0;
+  height:0;
+}
+.clearfix:after{
+  clear:both;
+  content:'\0020';
+  display:block;
+  overflow:hidden;
+  visibility:hidden;
+  width:0;
+  height:0;
+}
+*{
+ -webkit-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+ box-sizing:border-box;
+}
+ul,menu,dir{
+  display:block;
+  -webkit-magin-before:1em;
+  -webkit-magin-after:1em;
+  -webkit-magin-start:0px;
+  -webkit-magin-end:0px;
+  -webkit-padding-estart:40px;
+}
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{
+  margin:0;
+  padding:0;
+}
+i,cite,em,var,address,dfn{
+  font-style:normal;
+}
+button{
+  cursor: pointer;
+  border: 0;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  color: buttontext;
+  background-color: buttonface;
+  box-sizing: border-box;
+  padding: 2px 6px 3px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-image: initial;
+}
+input,textarea,select,button{
+  text-rendering:auto;
+  color:initial;
+  letter-spacing:normal;
+  word-spacing:normal;
+  text-transform:none;
+  text-indent:0px;
+  text-shadow:none;
+  display:inline-block;
+  text-align:start;
+  margin:0em;
+  font:400 13.3333px Arial;
+}
+dl{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+input{
+  /*-webkit-appearance:textfield;*/
+  background-color:white;
+  -webkit-rtl-ordering:logical;
+  user-select:text;
+  cursor:auto;
+  padding:1px;
+  border-width:2px;
+  border-style:inset;
+  border-color:initial;
+  border-image:initial;
+}
+.show{
+  display:block;
+}
+.hide{
+  display:none;
+}
+dd{
+  line-height:34px;
+  font-size:14px;
+}
+.sign-icon{
+  background:url(../img/register/common_form.png) no-repeat 0 0;
+}
+dt{
+  width:130px;
+  text-align:right;
+  line-height:34px;
+  margin-right:20px;
+}
+/* 
+    ============================================================================ */
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+/*html {*/
+/*  line-height: 1.15; /* 1 */
+/*  -webkit-text-size-adjust: 100%; /* 2 */
+/*}*/
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+  text-decoration:none;
+  color:#727171;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+/*button,*/
+/*input,*/
+/*optgroup,*/
+/*select,*/
+/*textarea {*/
+/*  font-family: inherit; /* 1 */
+/*  font-size: 100%; /* 1 */
+/*  line-height: 1.15; /* 1 */
+/*  margin: 0; /* 2 */
+/*}*/
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button /*,input*/{ /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}

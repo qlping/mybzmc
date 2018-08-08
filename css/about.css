@@ -1,0 +1,106 @@
+/*主体*/
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+}
+/*top-img*/
+.container .top-img{
+  margin-top:20px;
+}
+.container .top-img img{
+  width:981px;
+}
+/*1----clearfix*/
+.container .clearfix{
+  margin-top:60px;
+  margin-left:50px;
+  margin-right:50px;
+}
+.container div:nth-child(2)>div:nth-child(2){
+  width:495px;
+  margin-left:40px;
+}
+.container div:nth-child(2)>div:nth-child(2) .font{
+  color:#87AE82;
+  font-weight:normal;
+  font-family:'Microsoft Yahei';
+  font-size:24px;
+}
+.container div:nth-child(2)>div:nth-child(2) .center{
+  background-color:#f5f5f5;
+  padding:30px 20px 30px 20px;
+  margin-top:30px;
+}
+.container div:nth-child(2)>div:nth-child(2) .center p:nth-child(1){
+  font-family:'Microsoft Yahei';
+  font-size:16px;
+  text-align:2em;
+  line-height:28px;
+}
+.container div:nth-child(2)>div:nth-child(2) .center p:nth-child(2){
+  font-family:'Microsoft Yahei';
+  font-size:16px;
+  text-align:2em;
+  margin-top:20px;
+  line-height:28px;
+}
+/*2---clearfix*/
+.container div:nth-child(3)>div:nth-child(1){
+  width:355px;
+}
+.container div:nth-child(3)>div:nth-child(1)>.font{
+  color:#87AE82;
+  font-weight:normal;
+  font-family:'Microsoft Yahei';
+  font-size:24px;
+}
+.container div:nth-child(3)>div:nth-child(1) .rtcenter{
+  background-color:#f5f5f5;
+  padding:30px 20px 30px 20px;
+  margin-top:30px;
+} 
+.container  div:nth-child(3)>div:nth-child(1) .rtcenter>.line{
+  font-family:'Microsoft Yahei';
+  font-size:16px;
+  text-indent:2em;
+  line-height:28px;
+}
+.container div:nth-child(3)>div:nth-child(2){
+  margin-left:80px;
+}
+/*be fresh*/
+.container>.font{
+  border-top:1px solid #727171;
+  color:#87AE82;
+  font-weight:normal;
+  font-family:'Microsoft Yahei';
+  text-align:center;
+  font-size:24px;
+  padding-top:40px;
+  margin-top:60px;
+}
+/*3---clearfix*/
+.container div:nth-child(5){
+  margin:60px 50px 40px 50px;
+}
+.container div:nth-child(5) .lf{
+  width:250px;
+  height:400px;
+  background-color:#f5f5f5;
+  padding:20px 20px;
+}
+.container div:nth-child(5) .lf .yahei{
+  line-height:34px;
+  font-family:'Microsoft Yahei';
+  font-size:16px;
+}
+.container div:nth-child(5) div:nth-child(2){
+  margin-left:50px;
+  margin-right:50px;
+}
+
+
+
+
+

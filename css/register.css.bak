@@ -1,0 +1,209 @@
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+  margin-top:40px;
+}
+.container .register{
+  border:1px solid #C9CACA;
+  background:#FFF;
+}
+.container .register .left{
+  width:680px;
+}
+.container .register .left form{
+  display:block;
+}
+.container .register .left .big{
+  margin-bottom:60px;
+  margin-top:60px;
+}
+.container .register .left .big dl:not(:last-child){
+  margin-bottom:20px;
+}
+.container .register .left .big dl dt span{
+  color:#DC1C22;
+}
+.container .register .left .big dl dt font{
+  color:#999;
+}
+.container .register .left .big dl .failinput{
+  display:none;
+  color:red;
+}
+.container .register .left .big dl:nth-child(1)  .in-txt{
+  width:240px;
+  height:34px;
+  line-height:34px;
+  border:1px solid #C9CACA;
+  padding:0 10px;
+}
+.container .register .left .big dl:nth-child(1) .failinput{
+  height:34px;
+  margin:0 0 0 10px;
+  padding:0 10px 0 8px;
+  border:1px solid #fcbdbd;
+  background:#ffebeb;
+}
+.container .register .left .big dl:nth-child(1) .failinput .sign-icon{
+  background:url(../img/register/common_form.png) no-repeat 0 0;
+} 
+.container .register .left .big dl:nth-child(2) dd div div:nth-child(1){
+  width:300px;
+  /* margin:.4rem auto; */
+}
+.container .register .left .big dl:nth-child(2) dd div div:nth-child(2) #wait{
+  text-align:center;
+}
+.container .register .left .big dl:nth-child(2) dd div div:nth-child(2) #notice{
+  color:red;
+  text-align:center;
+}
+/* .container .register .left .big dl:nth-child(2) dd div div:nth-child(2) #down{
+  text-transform:none;
+  overflow:visible;
+  font-family:inherit;
+  font-size:100%;
+  line-height:1.15;
+  margin:0;
+} */
+.container .register .left .big dl:nth-child(3)  .in-txt{
+  width:240px;
+  height:34px;
+  line-height:34px;
+  border:1px solid #C9CACA;
+  padding:0 10px;
+}
+.container .register .left .big dl:nth-child(3) dd:nth-child(2) button{
+  display:inline-block;
+  width:110px;
+  height:34px;
+  margin:0 0 0 10px;
+  border:1px solid #ddd;
+  line-height:34px;
+  background:#f8f8f8;
+  color:#666;
+  text-decoration:none;
+  text-align:center;
+  font-size:14px;
+  cursor:pointer;
+  align-items:flex-start;
+}
+.container .register .left .big dl:nth-child(3) .tip{
+  height:34px;
+  margin:0 0 0 10px;
+  padding:0 10px 0 8px;
+  border:1px solid #a5enff;
+  line-height:34px;
+  background:#e6fbff;
+  color:#666;
+  display:none;
+} 
+.container .register .left .big dl:nth-child(3) .tip .sign-icon{
+  display:inline-block;
+  width:16px;
+  height:16px;
+  margin:0 10px 0 0;
+  background-position:-20px 0;
+  vertical-align:-3px;
+}
+.container .register .left .big dl:nth-child(4) .in-txt{
+  width:60px;
+  height:34px;
+  line-height:34px;
+  border:1px solid #C9CACA;
+  padding:0 10px;
+  overflow:visible;
+}
+.container .register .left .big dl:nth-child(4) dd:nth-child(1) .in-txt option{
+  font-weight:normal;
+  display:block;
+  white-space:pre;
+  min-height:1.2em;
+  padding:0 2px 1px;
+}
+.container .register .left .big dl:nth-child(5) .in-txt{
+  width:240px;
+  height:34px;
+  line-height:34px;
+  border:1px solid #C9CACA;
+  padding:0 10px;
+}
+.container .register .left .big dl:nth-child(5) .failinput{
+  height:34px;
+  margin:0 0 0 10px;
+  padding:0 10px 0 8px;
+  border:1px solid #fcbdbd;
+  background:#ffebeb;
+}
+.container .register .left .big dl:nth-child(6) .in-txt{
+  width:240px;
+  height:34px;
+  line-height:34px;
+  border:1px solid #C9CACA;
+  padding:0 10px;
+}
+.container .register .left .big dl:nth-child(7) .in-txt{
+  width:240px;
+  height:34px;
+  line-height:34px;
+  border:1px solid #C9CACA;
+  padding:0 10px;
+}
+.container .register .left .big dl:nth-child(8) dd:nth-child(1) span:nth-child(1){
+  margin-right:10px;
+  margin-top:10px;
+}
+.container .register .left .big dl:last-child  .btn-submit{
+  width:240px;
+  height:40px;
+  text-align:center;
+  line-height:40px;
+  color:#FFF;
+  font-size:16px;
+  border:none;
+  cursor:pointer;
+  background-color:#87AE82;
+}
+/* 右边 */
+.container .register .right{
+  width:260px;
+  border-left:1px dashed #EAEAEA;
+  min-height:320px;
+  padding-left:40px;
+  margin-top:60px;
+}
+.container .register .right>.color{
+  color:#666;
+  font-size:14px;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+.container .register .right>.btn-login{
+  display:block;
+  width:140px;
+  height:36px;
+  text-align:center;
+  line-height:36px;
+  font-size:16px;
+  background-color:#87AE82;
+  margin-top:15px;
+  color:#FFF;
+}
+.container .register .right>.font{
+  color:#666;
+  font-size:14px;
+  padding-top:40px;
+  margin-top:40px;
+  border-top:1px dashed #E8E8E8;
+}
+.container .register .right .clearfix p:not(:last-child){
+  font-size:14px;
+  margin-top:15px;
+}
+.container .register .right .clearfix font{
+  color:#FF0000;
+  font-weight:bold;
+  font-size:14px;
+}
+

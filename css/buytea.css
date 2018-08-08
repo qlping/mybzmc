@@ -1,0 +1,424 @@
+
+/* 主体 */
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+  /* display:block; */
+}
+/*header*/
+#header>.nav>li:nth-child(1)>a>.line{
+  background-color:#fff;
+  height:2px;
+  width:40%;
+}
+#header>.nav>li>a:hover .line{
+   background-color:#fff;
+   height:2px;
+   transition:width .5s;
+   width:100%;
+}
+/* 上：导航 */
+.container .gird{
+  width:981px;
+  display:inline;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+.container .gird .left{
+  margin-top:40px !important;
+  margin-bottom:40px !important;
+}
+.container .gird .left a{
+  color:#727171;
+}
+
+.container .gird .right{
+  margin-top:35px !important;
+}
+.container .gird .right .in-txt{
+  width:150px;
+  height:24px;
+  border:1px solid #87AE82;
+  padding:0 10px;
+}
+.container .gird .right input{
+  -webkit-appearance:textfield;
+  background-color:white;
+  -webkit-rtl-ordering:logical;
+  user-select:text;
+  cursor:auto;
+}
+.container .gird .right .btn_search{
+  display:block;
+  width:55px;
+  height:24px;
+  border:none;
+  background:url(../img/buytea/icon_search.gif) no-repeat 0 0;
+}
+/* 左：列表  */
+.container .list-tea{
+  width:151px;
+  display:inline;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+.container .list-tea .tea_type{
+  width:140px;
+  margin-bottom:20px;
+}
+.container .list-tea .tea_type .top .tea_name{
+  height:40px;
+  line-height:40px;
+  background:#87AE82;
+  color:#fff;
+  font-family:'Mircosoft Yahei' !important;
+  font-size:18px;
+  text-align:center;
+}
+.container .list-tea .tea_type .top .menu li{
+  position:relative;
+  height:40px;
+  line-height:40px;
+  display:list-item;
+  text-align:-webkit-match-parent;
+}
+.container .list-tea .tea_type .top li:hover{
+  background: lightskyblue;
+  opacity: 0.4;
+  color: red;
+}
+.container .list-tea .tea_type .top a{
+  padding-left:20px;
+  display:block;
+  width:140px;
+  height:40px;
+  line-height:40px;
+  color:#000;
+  font-size:14px;
+}
+/*box*/
+.container .box{
+  width:815px;
+
+}
+#tea{
+  height:1092px;
+}
+/* tea-list */
+.container .box .tea-list{
+  display:inline-block;
+  width:251px;
+  margin:0 10px;
+  margin-bottom:40px;
+  /*height:1092px;*/
+}
+.container .box .tea-list img{
+  width:251px;
+}
+.container .tea-list .know{
+  margin-top:20px;
+}
+.container .tea-list .know a{
+  display:block;
+  width:150px;
+  height:40px;
+  line-height:40px;
+  text-align:center;
+  margin:0 auto;
+  border:1px solid #2A2A2A;
+  color:#2A2A2A;
+  font-size:16px;
+}
+.container .tea-list .about{
+  position:relative;
+  text-align:center;
+  margin-top:20px;
+}
+.container .box .tea-list .about .relize{
+  text-align:center;
+}
+.container .box .tea-list .about .relize p:nth-child(1){
+  color:#2A2A2A;
+  font-size:16px;
+  text-align:center;
+}
+.container .box .tea-list .about .relize p:nth-child(2){
+  margin-top:10px;
+  text-align:center;
+ }
+.container .box .tea-list .about .relize p:nth-child(3){
+  margin-top:5px;
+  text-align:center;
+ }
+/*page*/
+.container .box .page{
+  text-align:center;
+  padding-bottom:20px;
+  margin-top:20px;
+}
+.container .box .page .number{
+  display:inline-block;
+
+}
+#number{
+  position:relative;
+  left:180px;
+}
+/*=========================*/
+#number a{
+  float:left;
+  display:block;
+  width:37px;
+  height:37px;
+  text-align:center;
+  line-height:37px;
+  margin-right:10px;
+  font-size:14px;
+  display:block;
+  height:37px;
+  width:37px;
+  text-align:center;
+  line-height:37px;
+  border:1px solid #EAEAEA;
+}
+#number a:first-child{
+  width:72px;
+}
+#number a:last-child{
+   width:72px;
+}
+.active{
+  background-color:#87AE82;
+  color:#FFF;
+  border-color:#87AE82;
+}
+#number a.disabled{
+  color:#bfbfbf;
+  background:#f2f2f2;
+  border:1px solid #bfbfbf;
+}
+/*.container .box .page .number li{*/
+  /*float:left;*/
+  /*display:block;*/
+  /*width:37px;*/
+  /*height:37px;*/
+  /*text-align:center;*/
+  /*line-height:37px;*/
+  /*margin-right:10px;*/
+  /*font-size:14px;*/
+/*}*/
+/*.container .box .page .number li:first-child{*/
+  /*width:72px;*/
+/*}*/
+/*.container .box .page .number .disabled{*/
+  /*margin-right:10px;*/
+/*}*/
+/*.container .box .page span{*/
+  /*display:block;*/
+  /*height:37px;*/
+  /*width:37px;*/
+  /*text-align:center;*/
+  /*line-height:37px;*/
+  /*border:1px solid #EAEAEA;*/
+/*}*/
+/*.container .box .page .number .disabled span{*/
+  /*width:72px;*/
+/*}*/
+/*.container .box .page .number li:last-child a{*/
+  /*width:72px;*/
+/*}*/
+/*.container .box .page .number .active span{*/
+  /*background-color:#87AE82;*/
+  /*color:#FFF;*/
+  /*border-color:#87AE82;*/
+/*}*/
+/*.container .box .page .number li a{*/
+  /*display:block;*/
+  /*width:37px;*/
+  /*height:37px;*/
+  /*text-align:center;*/
+  /*line-height:37px;*/
+  /*padding:0 8px;*/
+  /*border:1px solid #EAEAEA;*/
+  /*-webkit-transition:.2s;*/
+  /*-moz-transition:.2s;*/
+  /*transition:.2s;*/
+/*}*/
+/*smallBox*/
+/*.in{*/
+  /*display: block;*/
+  /*height:760px;*/
+  /*width:600px;*/
+  /*transition:all 2s linear;*/
+/*}*/
+#dialog{
+  width:760px;
+  margin:-300px 0px 0px 160px;
+  display:none;
+  height:600px;
+  z-index:9999;
+  position:fixed;
+  top:50%;
+  /*left:50%;*/
+}
+#dialog .mask{
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.7);
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:999;
+  display:none;
+}
+#dialog .all{
+  position:relative;
+  background-color:#F9F9FB;
+  padding:10px;
+  border:solid 4px #FFF;
+  padding-left:40px;
+  padding-right:40px;
+  padding-bottom:40px;
+  z-index:1000;
+}
+#dialog .all .poptit{
+   position:relative;
+   height:15px;
+}
+#dialog .all .poptit .close{
+   position:absolute;
+   right:-10px;
+   top:10px;
+   width:15px;
+   height:15px;
+}
+.container .box .smallBox .all #form2 ._token{
+   visibility:hidden;
+}
+#dialog .all #form2 .clearfix{
+   margin-top:20px;
+}
+#dialog .all #form2 .clearfix .teaImg{
+  width:300px;
+}
+#dialog .all #form2 .clearfix .teaImg img{
+  width:300px;
+}
+#dialog .all #form2 .clearfix .right{
+  width:332px;
+  margin-left:40px;
+}
+#dialog .all #form2 .clearfix .right .tname{
+  color:#000;
+  font-size:24px;
+}
+#dialog .all #form2 .clearfix .right .long{
+  margin-top:10px;
+  line-height:24px;
+  width:332px;
+}
+#dialog .all #form2 .clearfix .right .long .weight{
+  line-height:24px;
+}
+#dialog .all #form2 .clearfix .right .money{
+  margin-top:20px;
+}
+#dialog .all #form2 .clearfix .right .money .price{
+  color:#DC1C22;
+}
+#dialog .all #form2 .clearfix .right .shuliang{
+  margin-top:15px;
+}
+#dialog .all #form2 .clearfix .right .shuliang div:nth-child(1){
+  margin-top:8px;
+}
+#dialog .all #form2 .clearfix .right .shuliang div:nth-child(2) .amount{
+  display:block;
+  overflow:hidden;
+  width:146px;
+}
+#dialog .all #form2 .clearfix .right .shuliang div:nth-child(2) .amount a{
+  display:inline-block;
+  width:35px;
+  height:30px;
+  border:1px solid #d9d9d9;
+  background-color:#EFEFEF;
+  cursor:pointer;
+  outline:0;
+}
+#dialog .all #form2 .clearfix .right .shuliang div:nth-child(2) .amount .jian i{
+  background-position:0px -13px;
+}
+#dialog .all #form2 .clearfix .right .shuliang div:nth-child(2) .amount a i{
+  font-style:normal;
+  background:url(../img/buytea/BuynBtn.png) no-repeat;
+  display:block;
+  width:13px;
+  height:13px;
+  margin:7px 11px;
+  text-indent:999999%;
+  overflow:hidden;
+}
+#dialog .all #form2 .clearfix .right .shuliang div:nth-child(2) .amount .inAmount{
+  width:76px;
+  height:30px;
+  line-height:30px;
+  border-width:1px 0;
+  border-style:solid;
+  border-color:#d9d9d9;
+  text-align:center;
+  color:#565656;
+  outline:0;
+  padding:0;
+}
+#dialog .all #form2 .clearfix .right .shuliang div:nth-child(2) .amount .jia i{
+  background-position:-13px 0px;
+}
+#dialog .all #form2 .clearfix .right .count{
+  margin-top:15px;
+}
+#dialog .all #form2 .clearfix .right .count .total{
+  color:#DC1C22;
+}
+#dialog .all #form2 .clearfix .right .index-tea{
+  margin-top:30px;
+}
+#dialog .all #form2 .clearfix .right .index-tea .btn-buy{
+  display:block;
+  width:150px;
+  height:42px;
+  line-height:42px;
+  text-align:center;
+  font-size:16px;
+  color:#FFF;
+  cursor:pointer;
+  background-color:#87AE82;
+  border:none;
+  margin-right:20px;
+}
+#dialog .all #form2 .clearfix .right .index-tea .add-shopping{
+  display:block;
+  width:150px;
+  height:42px;
+  line-height:38px;
+  text-align:center;
+  font-size:16px;
+  color:#87AE82;
+  cursor:pointer;
+  background-color:#FFF;
+  border:2px solid #87AE82;
+}
+
+
+/*.container .box .smallBox{
+  display:none;
+}*/
+.container .box .clearfix .tea-list .know a:hover{
+  background-color:#000;
+  color:#ddd;
+}
+
+

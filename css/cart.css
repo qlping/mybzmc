@@ -1,0 +1,158 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 996px;
+}
+.container .grid{
+    width: 981px;
+    display: inline;
+    float: left;
+    position: relative;
+    margin-left: 8px;
+    margin-right: 7px;
+}
+.container .grid .carbox table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+}
+.container .grid .carbox table th{
+    background: #A7C9A6;
+    height: 50px;
+    font-size: 16px;
+    color: #FFF;
+    font-family: "Microsoft Yahei";
+    font-weight: normal;
+}
+.container .grid .carbox .check{
+    zoom: 1.5;
+    cursor: pointer;
+}
+.container .grid .carbox .checkbox{
+    width: 90px;
+}
+.container .grid .carbox table td{
+    padding: 20px 10px;
+    color: #444;
+    border-bottom: 1px solid #EEEBC0;
+}
+.container .grid .carbox .goods{
+    width: 500px;
+}
+.container .grid .carbox table td.pd{
+    padding: 10px;
+    border: none;
+}
+.container .grid .carbox .price{
+    width: 100px;
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+}
+.container .grid .carbox .count{
+    width: 100px;
+}
+.container .grid .carbox .count .box{
+    width: 108px;
+    margin: 0 auto;
+}
+.container .grid .carbox .count .reduce,.container .grid .carbox .count .add{
+    height: 25px;
+    width: 30px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+}
+.container .grid .carbox .count .reduce,.container .grid .carbox .count .add,.container .grid .carbox .count input{
+    float: left;
+    margin-right: -1px;
+    position: relative;
+    z-index: 0;
+}
+.container .grid .carbox .count input{
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #e5e5e5;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    z-index: 2;
+}
+.container .grid .carbox .subtotal{
+    width: 100px;
+    color: red;
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+}
+
+
+#foot{
+    margin-top: 40px;
+    color: #666;
+    height: 48px;
+}
+#foot .select-all input{
+    zoom: 1.5;
+    cursor: pointer;
+}
+#foot div{
+    line-height: 48px;
+    height: 48px;
+}
+#foot .select-all{
+    width: 100px;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 5px;
+    color: #666;
+}
+#foot .delete{
+    line-height: 40px;
+    height: 40px;
+    font-size: 16px;
+    width: 150px;
+    margin-top: 5px;
+    border: 0;
+    text-align: center;
+}
+#foot .delete-all{
+    line-height: 40px;
+    height: 40px;
+    font-size: 16px;
+    width: 110px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 0;
+    text-align: center;
+}
+#foot form button{
+    line-height: 48px;
+    height: 48px;
+    font-size: 16px;
+    border: 0;
+    display: block;
+    width: 120px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    background: #DC1C22;
+    cursor: pointer;
+}
+#foot .total{
+    cursor: auto;
+    margin: 0 20px;
+    line-height: 48px;
+    height: 48px;
+}
+#foot #select-total, #foot #price-total {
+    color: red;
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
+    font-size: 20px;
+}
+

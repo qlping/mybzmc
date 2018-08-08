@@ -1,0 +1,176 @@
+.container{
+  width:996px; 
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+}
+/* 左图 */
+.container .login-layer .left{
+  width:610px;
+}
+.container .login-layer .left img{
+  width:610px;
+  height:350px;
+}
+/* 右列表 */
+.container .login-layer .right{
+  width:350px;
+  height:350px;
+  border:1px solid #EAEAEA;
+  padding:15px;
+  font-size:14px;
+  float:right;
+}
+.container .login-layer .right h3{
+  font-weight:normal;
+  font-family:'Microsoft Yahei';
+  font-size:20px;
+}
+.container .login-layer .right .msg{
+  position:relative;
+  height:26px;
+  background:#fff6d2;
+  color:#666;
+  border:1px solid #fffe57d;
+  padding:3px 10px 3px 40px;
+  margin-top:10px;
+  font-size:14px;
+}
+.container .login-layer .right b{
+  position:absolute;
+  top:50%;
+  left:10px;
+  display:block;
+  margin-top:-8px;
+  width:16px;
+  height:17px;
+  overflow:hidden;
+  background:url(../img/login/pwd-icons-new.png) -104px -22px no-repeat;
+  font-size:14px;
+}
+.container .login-layer .right form{
+  font-size:14px;
+}
+.container .login-layer .right input{
+  -webkit-appearance:initial;
+  background-color:initial;
+  display:inline-block;
+}
+.container .login-layer .right .form-login{
+  margin-top:10px;
+  font-size:14px;
+}
+.container .login-layer .right .form-login .item:nth-child(1){
+  margin-bottom:20px;
+  font-size:14px;
+  border:1px solid #bdbdbd;
+  height:40px;
+  position:relative;
+}
+.container .login-layer .right .form-login .item:nth-child(1) label{
+  background-position:0 0;
+  position:absolute;
+  z-index:3;
+  top:0;
+  left:0;
+  width:38px;
+  height:38px;
+  border-right:1px solid #bdbdbd;
+  background:url(../img/login/pwd-icons-new.png) no-repeat;
+  cursor:default;
+  font-size:14px;
+}
+.container .login-layer .right .form-login .item:nth-child(1) input{
+  width:316px;
+  height:38px;
+  border:0;
+  padding:10px 0 10px 50px;
+  overflow:hidden;
+  font-size:14px; 
+  /*display:none;*/
+}
+.container .login-layer .right .form-login .item:nth-child(1) span{
+  display:none;
+}
+.container .login-layer .right .form-login .item:nth-child(2){
+  margin-bottom:20px;
+  font-size:14px;
+  border:1px solid #bdbdbd;
+  height:40px;
+  position:relative;
+}
+.container .login-layer .right .form-login .item:nth-child(2) label{
+  background-position:-48px 0;
+  position:absolute;
+  z-index:3;
+  top:0;
+  left:0;
+  width:38px;
+  height:38px;
+  border-right:1px solid #bdbdbd;
+  background:url(../img/login/pwd-icons-new.png) -48px 0 no-repeat;
+  cursor:default;
+}
+.container .login-layer .right .form-login .item:nth-child(2) input{
+  width:316px;
+  height:38px;
+  border:0;
+  padding:10px 0 10px 50px;
+  overflow:hidden;
+  font-size:14px;
+  /*display:none;*/
+}
+.container .login-layer .right .form-login .item:nth-child(2) span{
+  display:none;
+}
+.container .login-layer .right .form-login .item:nth-child(3){
+  margin-bottom:20px;
+  font-size:14px;
+  position:relative;
+}
+.container .login-layer .right .form-login .item:nth-child(3) .lf label{
+  color:#666;
+  cursor:default;
+}
+.container .login-layer .right .form-login .item:nth-child(3) .lf input{
+  -webkit-appearance: checkbox;
+      background-color: initial;
+	  -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+}
+.container .login-layer .right .form-login .item:nth-child(3) .rt a{
+  color:#666;
+}
+.container .login-layer .right .form-login .item:nth-child(4){
+  margin-bottom:20px;
+  font-size:14px;
+  position:relative;
+}
+.container .login-layer .right .form-login .item:nth-child(4) input{
+  border:1px solid #87AE82;
+  display:block;
+  width:310px;
+  background:#87AE82;
+  height:34px;
+  line-height:30px;
+  color:#fff;
+  font-size:16px;
+  cursor:pointer;
+  align-items:flex-start;
+  text-align:center;
+}
+.container .login-layer .right .form-login .item:nth-child(5){
+  font-size:14px;
+  position:relative;
+  text-align:center;
+}
+.container .login-layer .right .form-login .item:nth-child(5) .color{
+  color:#999;
+  text-align:center;
+}
+.container .login-layer .right .form-login .item:nth-child(5) a{
+  color:#FF0000;
+  text-align:center;
+} 
+

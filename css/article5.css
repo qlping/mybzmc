@@ -1,0 +1,70 @@
+/*主体*/
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 996px;
+}
+.container .grid{
+    width: 981px;
+    display: inline;
+    position: relative;
+    margin-left: 8px;
+    margin-right: 7px;
+}
+/*title*/
+.container .grid .title{
+    border-bottom: 1px solid #DFD57E;
+    color: #87AE82;
+    font-family: 'Microsoft Yahei';
+    font-size:20px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+/*center*/
+.container .grid .center{
+    font-size:14px;
+	line-height:24px;
+}
+.container .grid .center .text{
+    text-indent: 2em;
+}
+.container .grid .center .text .font{
+    font-size: 14px;
+    line-height: 2.5;
+}
+.container .grid .center .text .font .line{
+    line-height: 2.5;
+}
+.container .grid .center p:nth-child(2){
+   text-align:center;
+}
+/*bottom*/
+.container .grid .bottom{
+  padding-top:40px;
+  margin-top:60px;
+  margin-bottom:40px;
+  border-top:1px solid #E8E8E8;
+}
+.container .grid .bottom div:nth-child(1){
+  width:459px;
+  margin-right:10px;
+}
+.container .grid .bottom div:nth-child(2){
+  width:459px;
+  margin-left:10px;
+}
+.container .grid .bottom .lf .news{
+  word-break:keep-all;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-size:14px;
+}
+
+
+
+
+
+

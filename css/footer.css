@@ -1,0 +1,68 @@
+.footer{
+  padding:40px 0;
+  background-color:#A7C9A6;
+  color:#fff;
+  margin-top:40px;
+}
+.footer .grid{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+}
+.footer .grid-12{
+  width:981px; 
+  display:inline;
+  float:left;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+.footer .grid-12 .link{
+  margin-top:10px !important;
+  /* height:35px; */
+}
+.footer .grid-12 .link a{
+  color:#fff;
+}
+.footer .grid .grid-12 .link a:hover{
+  text-decoration: underline;
+}
+.footer .grid .grid-13 .txt-center2 a:hover{
+  text-decoration: underline;
+}
+.footer .grid-12 .link span{
+  margin:0 25px;
+  color:#fff;
+}
+.footer .grid-12 .img .weibo{
+  margin-right:10px !important;
+}
+.footer .grid-12 .img .wechat2{
+  position:relative;
+  margin-right:30px !important;
+}
+.footer .grid-12 .img .phone{
+  margin-top:5px !important;
+}
+.footer .grid-13{
+  width:981px;
+  display:inline;
+  float:left;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+  padding-top:40px !important; 
+}
+.footer .grid-13 .txt-center{
+  font-family:'Microsft Yahei' !important;
+  text-align:center;
+  
+}
+.footer .grid-13 .txt-center2{
+  font-family:'Microsft Yahei' !important;
+  text-align:center;
+  margin-top:10px !important;
+}
+.footer .grid-13 .txt-center2 a{
+   color:#fff;
+}

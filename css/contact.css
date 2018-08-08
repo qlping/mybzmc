@@ -1,0 +1,107 @@
+/*主体*/
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+}
+.container .grid{
+  width:981px;
+  display:inline;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+/*title*/
+.container .grid .title{
+  border-bottom:1px solid #DFD57E;
+  color:#87AE82;
+  font-size:20px;
+  text-align:center;
+  padding-bottom:30px;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+/*table*/
+.container .grid .table{
+  width:718px;
+  margin:0 auto;
+  matgin-top:40px;
+}
+.container .grid .table form .clearfix{
+  margin-bottom:30px;
+}
+.container .grid .table form dl:nth-child(4){
+  margin-bottom:60px;
+}
+.container .grid .table form dl:last-child{
+  margin-bottom:0;
+}
+.container .grid .table form .clearfix dt{
+  width:220px;
+  text-align:right;
+  line-height:32px;
+  margin-right:10px;
+}
+.container .grid .table form .clearfix .txt{
+  border:1px solid #87AE82;
+  width:300px;
+  height:32px;
+  line-height:32px;
+  padding:0 10px;
+  color:#9FA0A0;
+}
+.container .grid .table form .clearfix .msg{
+  border:1px solid #87AE82;
+  width:300px;
+  height:150px;
+  padding:10px;
+  color:#9FA0A0;
+}
+.container .grid .table form .clearfix .yzm{
+  width:100px;
+  border:1px solid #87AE82;
+  height:32px;
+  line-height:32px;
+  padding:0 10px;
+  color:#9FA0A0;
+}
+.container .grid .table form .clearfix .btn{
+  width:180px;
+  height:40px;
+  line-height:40px;
+  font-size:16px;
+  color:#FFF;
+  border:none;
+  background-color:#87AE82;
+  cursor:pointer;
+  padding-left:70px;
+}
+/*call*/
+.container .grid .call{
+  border-top:1px solid #DFD57E;
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:40px;
+  margin-top:40px=
+}
+.container .grid .call .clearfix .lf div:nth-child(2){
+  font-size:16px;
+  margin-bottom:20px;
+}
+.container .grid .call .clearfix .lf .font{
+  font-size:16px;
+  margin-bottom:40px;
+}
+.container .grid .call .clearfix .rt .img{
+  text-align:center;
+}
+.container .grid .call .clearfix .rt .img img{
+  margin:0 auto;
+}
+.container .grid .call .clearfix .rt .bottom{
+  text-align:center;
+  margin-top:10px;
+}
+
+
+

@@ -1,0 +1,221 @@
+body{
+  color:#333;
+}
+div{
+  display:block;
+}
+
+/* 轮播图 */
+#pp{
+  width:100%;
+  margin:0 0;
+}
+.banner{
+  min-width: 1200px;
+  max-width: 1920px;
+  width:100%;
+  margin: 0 auto;
+  height:650px;
+  overflow:hidden;
+}
+.banner .fullSlide{
+  width:100%;
+  position:relative;
+  height:650px;
+}
+.banner .fullSlide ul{
+  height:650px;
+  /*position:relative;*/
+  position: absolute;
+}
+.banner .fullSlide ul li{
+  width: 1920px;
+  height:650px;
+  /*overflow:hidden;*/
+  text-align:center;
+  background-color:#f0f0f0;
+  float: left;
+  /*background-image:url(../img/index/banner.png);*/
+  /*background-position:50% 0px;
+  background-repeat:no-repeat;*/
+  /*position:absolute;
+  left:0px;
+  top:0px;*/
+}
+.banner .fullSlide ul li a img{
+  width:100%;
+  height:650px;
+}
+.banner .fullSlide ul li a{
+  display:block;
+  height:650px;
+
+}
+.banner .prev{
+   left:20px;
+   background-position:-33px 0;
+   position:absolute;
+   display:block;
+   width:10px;
+   height:43px;
+   top:410px;
+   /*background:url(../img/index/slider_arrow.png) 0 0 no-repeat;*/
+   opacity:1;
+   transform:rotateY(-180deg);
+}
+.banner .next{
+  right:20px;
+  background-position:0 0; 
+  position:absolute;
+  display:block;
+  width:10px;
+  height:43px;
+  top:410px;
+  /*background:url(../img/index/slider_arrow.png) 0 0 no-repeat;*/
+  opacity:1;
+ }
+.banner>a:hover{
+  color: #000;
+  opacity: 0.5;
+}
+/* 主体 */
+.container{
+  margin: 0 auto;
+  width:996px;
+}
+.container .common{
+  margin-top:40px !important;
+  margin-bottom:20px !important;
+}
+.container .common .top{
+  background:url(../img/index/index_linee.gif) no-repeat center center;
+  text-align:center;
+  line-height:23px;
+}
+.container .common .top p{
+  color:#87AE82;
+  font-family:'Microsoft Yahei' !important;
+  font-size:20px !important;
+  text-align:center;
+}
+.container .txt-center{
+  font-family:'Microsoft Yahei' !important;
+  font-size:16px !important;
+  text-align:center;
+}
+.container .clearfix{
+  margin-top:30px !important;
+}
+.container .clearfix .f1{
+  width:430px;
+}
+.container .clearfix .f1 img{
+  margin:0 auto;
+}
+.container .clearfix .f2{
+  width:536px;
+  background:#f0f0f0;
+}
+.container .clearfix .f2 iframe{
+  height:303px;
+  width:536px;
+  border-top-width:0px;
+  border-right-width:0px;
+  border-bottom-width:0px;
+  border-left-width:0px;
+  border-style:inset;
+  border-color:initial;
+  border-image:initial;
+}
+.container .clearfix .f2 iframe html{
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+.container .txt-center4{
+  font-family:'Microsoft Yahei' !important;
+  font-size:16px !important;
+  text-align:center;
+  margin-top:40px !important;
+}
+.container .txt-center3{
+  text-align:center;
+  margin-top:30px !important;
+}
+.container .txt-center3 img{
+  margin:0 auto; 
+}
+.container .txt-center4-h{
+  font-family:'Microsoft Yahei' !important;
+  font-size:16px !important;
+  text-align:center;
+  margin-top:40px !important;
+  line-height:30px !important;
+}
+
+
+
+
+/* 底部 */
+.footer{
+  padding:40px 0;
+  background-color:#A7C9A6;
+  color:#fff;
+  margin-top:40px;
+}
+.footer .grid{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+}
+.footer .grid-12{
+  width:981px; 
+  display:inline;
+  float:left;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+.footer .grid-12 .link{
+  margin-top:10px !important;
+  /* height:35px; */
+}
+.footer .grid-12 .link a{
+  color:#fff;
+}
+.footer .grid-12 .link span{
+  margin:0 25px;
+  color:#fff;
+}
+.footer .grid-12 .img .weibo{
+  margin-right:10px !important;
+}
+.footer .grid-12 .img .wechat2{
+  position:relative;
+  margin-right:30px !important;
+}
+.footer .grid-12 .img .phone{
+  margin-top:5px !important;
+}
+.footer .grid-13{
+  width:981px;
+  display:inline;
+  float:left;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+  padding-top:40px !important; 
+}
+.footer .grid-13 .txt-center{
+  font-family:'Microsft Yahei' !important;
+  text-align:center;
+  
+}
+.footer .grid-13 .txt-center2{
+  font-family:'Microsft Yahei' !important;
+  text-align:center;
+  margin-top:10px !important;
+}
+.footer .grid-13 .txt-center2 a{
+   color:#fff;
+}
+

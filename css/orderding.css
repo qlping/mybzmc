@@ -1,0 +1,265 @@
+/*主体*/
+html{
+  font-size:50px;
+}
+body{
+  width:800px;
+  margin:0 auto;
+}
+/*表格*/
+table{
+  border-collapse:collapse;
+  font-size:0.5rem;
+  margin:0 auto;
+  width:95%;
+  border:1px solid rgba(0,0,0,0.2);
+  color:#4f4f4f;
+}
+.page{
+  background:white;
+}
+/*填写信息*/
+.page .address .required{
+  padding:20px 0 20px 0;
+}
+.page .address .required>span{
+  font-size:0.7rem;
+  margin:0;
+}
+.page .address .fill-item{
+  font-size:0.7rem;
+  background:#FFF;
+}
+.page .address .fill-item input{
+  height:0.8rem;
+  display:inline-block;
+  width:60%;
+  margin:0;
+  padding:0s;
+}
+/*mt-img*/
+.page .mt-img{
+  margin-top:40px;
+}
+.page .mt-img>div{
+  position:absolute;
+  width:800px;
+  text-align:center;
+  color:white;
+  font-size:1rem;
+  margin:90px 0 0 0;
+  font-family:'微软雅黑';
+}
+.page .mt-img>div>span:nth-child(2){
+  font-size:0.7rem;
+  display:block;
+  margin:10px 0 0 0;
+}
+.page .mt-img>div>span:nth-child(3){
+  font-size:0.7rem;
+  display:block;
+}
+.page .mt-img img{
+  width:800px;
+}
+/*buy*/
+.page .buy{
+  padding:40px 0;
+  font-size:0.6rem;
+}
+.page .buy .number .one{
+  display:inline-block;
+  text-align:center;
+  line-height:90px;
+  font-size:1rem;
+}
+.page .buy .number .one div{
+  display:inline-block;
+  background:#D7D7DE;
+  width:70px;
+  height:70px;
+  line-height:65px;
+}
+.page .buy .number .one input{
+  display:inline-block;
+  width:100px;
+  height:70px;
+  line-height:0.9rem;
+  text-align:center;
+  font-size:0.9rem;
+}
+.page .buy .number .scope{
+  padding-left:20px;
+  display:inline-block;
+  font-size:0.45rem;
+  color:#4f4f4f;
+  line-height:30px;
+  width:800px;
+}
+.page .buy .year{
+  display:inline-block;
+  text-align:center;
+  line-height:90px;
+  font-size:0.6rem;
+}
+.page .buy .year .boxSelect{
+  display:inline-block;
+  background:#D7D7DE;
+  width:70px;
+  height:70px;
+  line-height:65px;
+}
+.page .buy .year div:nth-child(3){
+  background:#42BF45;
+  color:white;
+}
+.page .buy .chanquanzheng{
+  color:#42BF45;
+  text-align:center;
+  font-size:18px;
+  padding-top:10px;
+  width:800px;
+}
+.page .buy .explain{
+  color:#4f4f4f;
+  font-size:0.4rem;
+  line-height:0.7rem;
+  padding:20px 0;
+  width:800px;
+}
+/*notice*/
+.page .notice{
+  width:800px;
+}
+/*message*/
+.page .message{
+  width:800px;
+  text-align:center;
+  background:white;
+  padding-bottom:50px;
+  padding-top:30px;
+}
+.page .message tbody tr .headOfTea{
+  background:#f9f9f9;
+  width:30%;
+  padding:10px 0;
+  border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.page .message tbody tr .valueOfTea{
+  width:70%;
+  padding:10px 0;
+  border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.page .message tbody tr:nth-child(4) .valueOfTea{
+  color:#CAE83D;
+}
+.page .message tbody tr:last-child .valueOfTea{
+  border-bottom:0;
+}
+/*card*/
+.page .card{
+  width:800px;
+}
+/*card-write*/
+.page .card-write{
+  color:rgb(128,128,128,0.8);
+  font-size:0.45rem;
+  line-height:0.7rem;
+  padding:20px 0;
+  text-align:center;
+  width:800px;
+}
+/*five*/
+.page .five{
+  color:#4f4f4f;
+  font-size:0.5rem;
+  line-height:1rem;
+  padding:20px 30px;
+  width:800px;
+  border:1px solid #bbbbbb;
+}
+/*list-img*/
+.page .list-img{
+  width:800px;
+  text-align:center;
+  margin-top:40px;
+}
+/*queen*/
+.page .queen{
+  text-align:center;
+  margin-top:40px;
+  width:800px;
+}
+/*wueen-write*/
+.page .queen-write{
+  text-align:center;
+  color:#DAC367;
+  padding:20px 0;
+  line-height:0.8rem;
+  width:800px;
+}
+/*vip*/
+.page .vip{
+  color:#4f4f4f;
+  font-size:0.5rem;
+  line-height:1rem;
+  padding:20px 30px;
+  width:800px;
+  border:1px solid #bbbbbb;
+}
+/*title*/
+.page .title{
+  color:#4f4f4f;
+  font-size:0.5rem;
+  line-height:1rem;
+  padding:20px 30px;
+  width:800px;
+}
+/*picture*/
+.page .picture{
+  background-color:#FFF;
+}
+.page .picture div{
+  padding-top:0px;
+}
+.page .picture img{
+  width:800px;
+}
+/*bottom*/
+.page .bottom{
+  color:rgba(128,128,128,0.8);
+  font-size:0.6rem;
+  line-height:0.7rem;
+  padding:20px 0;
+  text-align:center;
+  width:800px;
+}
+/*fixed*/
+.page .fixed{
+  height:180px;
+}
+/*fix-img*/
+.page .fixed-img{
+  position:fixed;
+  bottom:0px;
+  width:800px;
+}
+.page .fixed-img #mySubmit{
+  background:#42BF45;
+  height:120px;
+  line-height:120px;
+  text-align:center;
+  color:white;
+  font-size:0.8rem;
+  z-index:99;
+}
+
+
+
+
+
+
+
+
+
+

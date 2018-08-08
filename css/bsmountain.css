@@ -1,0 +1,156 @@
+
+/* 主体 */
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  width:996px;
+  /* display:block; */
+}
+/*header*/
+#header>.nav>li:nth-child(2)>a>.line{
+  background-color:#fff;
+  height:2px;
+  width:40%;
+}
+#header>.nav>li>a:hover .line{   
+   background-color:#fff;
+   height:2px;
+   transition:width .5s;
+   width:100%;
+}
+/* 上：导航 */
+.container .gird{
+  width:981px;
+  display:inline;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+.container .gird .left{
+  margin-top:40px !important;
+  margin-bottom:40px !important;
+}
+.container .gird .left a{
+  color:#727171;
+}
+
+.container .gird .right{
+  margin-top:35px !important;
+}
+.container .gird .right .in-txt{
+  width:150px;
+  height:24px;
+  border:1px solid #87AE82;
+  padding:0 10px;
+}
+.container .gird .right input{
+  -webkit-appearance:textfield;
+  background-color:white;
+  -webkit-rtl-ordering:logical;
+  user-select:text;
+  cursor:auto;
+}
+.container .gird .right .btn_search{
+  display:block;
+  width:55px;
+  height:24px;
+  border:none;
+  background:url(../img/buytea/icon_search.gif) no-repeat 0 0;
+}
+/* 左：列表  */
+.container .list-tea{
+  width:151px;
+  display:inline;
+  position:relative;
+  margin-left:8px;
+  margin-right:7px;
+}
+.container .list-tea .tea_type{
+  width:140px;
+  margin-bottom:20px;
+}
+.container .list-tea .tea_type .top .tea_name{
+  height:40px;
+  line-height:40px;
+  background:#87AE82;
+  color:#fff;
+  font-family:'Mircosoft Yahei' !important;
+  font-size:18px;
+  text-align:center;
+}
+.container .list-tea .tea_type .top .tea_name .menu li{
+  position:relative;
+  height:40px;
+  line-height:40px;
+  display:list-item;
+  text-align:-webkit-match-parent;
+}
+.container .list-tea .tea_type .top a{
+  padding-left:20px;  
+  display:block;
+  width:140px;
+  height:40px;
+  line-height:40px;
+  color:#000;
+  font-size:14px;
+}
+/* 右：大图 */
+.container .box{
+  width:815px;
+}
+.container .box .click-img .image{
+  position:relative;
+  margin-bottom:20px;
+}
+.container .box .click-img .image a img{
+  width:815px;
+}
+.container .box .click-img .image .write-c{
+  position:absolute;
+  width:815px;
+  top:30%;
+}
+.container .box .click-img .image .write-c .title{
+  color:#fff;
+  font-size:28px;
+  text-align:center;
+  font-family:"Microft Yahei";
+}
+.container .box .click-img .image .write-c .location{
+  color:#fff;
+  font-size:16px;
+  text-align:center;
+  margin-top:20px;
+}
+.container .box .click-img .image .write-c .location span{
+  position:relative;
+  padding-left:15px;
+}
+.container .box .click-img .image .write-c .location i{
+  position:absolute;
+  left:-5px;
+  top:-5px;
+  width:30px;
+  height:32px;
+  background:url(../img/bsmountain/icon_v_location.png) no-repeat 0 center;
+}
+.container .box .click-img .image .write-c .about{
+  margin-top:60px;
+  font-size:18px;
+  color:#fff;
+  text-align:center;
+}
+.container .box .click-img .image .write-rb{
+  position:absolute;
+  bottom:20px;
+  right:20px;
+  color:#fff;
+}
+.container .box .click-img .image .write-rb .price{
+  font-size:16px;
+}
+.container .box .click-img .kong{
+  text-align:center;
+  margin-bottom:40px;
+  margin-top:40px;
+}

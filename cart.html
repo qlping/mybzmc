@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body class style>
+<!-- 头部 -->
+<header id="header">
+</header>
+<!-- 主体 -->
+<div class="container clearfix">
+    <div class="grid">
+        <div class="carbox">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <label>
+                                <input type="checkbox" class="check">全选
+                            </label>
+                        </th>
+                        <th>商品</th>
+                        <th>单价（元）</th>
+                        <th>数量</th>
+                        <th>小计（元）</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="checkbox">
+                        <input type="checkbox" class="check-one check">
+                    </td>
+                    <td class="goods">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td align="center" valign="midddle" class="pd" width="33%">
+                                    广院红茶山VIP
+                                </td>
+                                <td align="center" valign="midddle" class="pd" width="34%">
+                                    <p>一年</p>
+                                </td>
+                                <td align="center" valign="midddle" class="pd" width="33%">
+                                    <p>
+                                        <img src="img/buytea/1-1.jpg" alt="广院红茶山VIP" width="100" height="70">
+                                    </p>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="price">498.00</td>
+                    <td class="count">
+                        <div class="box">
+                            <span class="reduce">-</span>
+                            <input type="text" class="count-input" value="1" readonly="readonly" id="countinput">
+                            <span class="add">+</span>
+                        </div>
+                    </td>
+                    <td class="subtotal">498.00</td>
+                    <td class="operation">
+                        <span class="delete">
+                            <a href="#" onclick="return confirm('您确定要删除该商品吗？')">删除</a>
+                        </span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="foot" id="foot">
+                <label class="lf select-all">
+                    <input type="checkbox" class="check-all">全选
+                </label>
+                <button class="lf delete">删除选中的商品</button>
+                <button class="lf delete-all">清空购 物车</button>
+                <form action="#" class="rt" id="form1" method="post">
+                    <input type="hidden" name="qty">
+                    <input type="hidden" name="total">
+                    <input type="hidden" name="checked">
+                    <input type="hidden" name="_token" value="">
+                    <button class="button">去结算</button>
+                </form>
+                <div class="rt total">
+                    合计：
+                    <span id="select-total">￥</span>
+                    <span id="price-total">0.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 底部 -->
+<footer id="footer">
+</footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>

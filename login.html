@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="css/basic.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body class style>
+    <!-- 头部 --> 
+	<header id="header">
+	</header>
+	<!-- 主体 -->
+	<div class="container">
+	   <div class="login-layer clearfix">
+	      <div class="left lf">
+		     <img src="img/login/login_bg.jpg" alt>
+		  </div>
+	      <div class="right rt">
+		     <h3 class="user-login">用户登录</h3>
+			 <div class="msg">
+			    <b></b>公共场合不建议自动登录，以防账号丢失
+			 </div>
+			 <form method="post" action="" id="form">
+			    <input type="hidden" name="_token">
+				<div class="form-login">
+				   <div class="item" id="mobile">
+				      <label for="loginName" class="login-label"></label>	
+					  <input type="text" id="loginName"
+					  class="itxt" name="mobile"
+					  placeholder="请输入手机号码">
+					  <span class="clear-btn"></span>
+				   </div>
+				   <div class="item" class="login-label">
+				      <label for="loginName"></label> <input id="password" type="password" class="itxt" name="upwd" placeholder="请输入密码">
+					  <span class="clear-btn"></span>
+				   </div>
+				   <div class="item">
+				      <div class="safe clearfix">
+					     <span class="lf">
+						    <label class="color">
+							   <input id="autoLogin" type="checkbox"  class="jdcheckbox">自动登录
+							</label>
+						 </span>
+						 <span class="rt">
+						    <a href="#" class="color" target="_blank">忘记密码？</a>
+						 </span>
+					  </div>
+				   </div>
+				   <div class="item">
+				      <input type="button" class="btn-submit"  id="btn-submit"  value="登  录">
+				   </div>
+				   <div class="item">
+				      <font class="color">还没有不知名茶账号？</font>
+					  <a href="#" class="register">马上注册</a>
+				   </div>
+				</div>
+			 </form>
+		  </div>
+	   </div>
+	</div>
+	<!-- 底部 --> 
+	<footer id="footer">
+	</footer>
+    <script src="js/jquery-1.11.3.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>

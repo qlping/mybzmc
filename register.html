@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" href="css/basic.css">
+	<link rel="stylesheet" href="css/register.css">		
+</head>
+<body class style>
+	<!-- 头部 --> 
+	<header id="header">
+	</header>
+	<!-- 主体 -->
+	<div class="container">
+	   <div class="register clearfix">
+	      <div class="left lf">
+		     <form action="#" id="form1" method="post">
+			   <input type="hidden" name="_token">
+			   <input type="hidden" name="countdown">
+			   <div class="big clearfix">
+			     <dl class="member clearfix">
+				    <dt class="lf">
+					   <span class="color">*</span>&nbsp;
+					   <font class="color">手机号码：</font>
+					</dt>
+					<dd class="lf">
+					   <input type="text" class="in-txt" maxlength="11" id="phone">
+						<span id="yzphone"></span>
+					</dd>
+					<dd class="failinput lf">
+					   <i class="sign-icon">请输入手机号码</i>
+					</dd>
+				 </dl>
+                 <dl class="member clearfix">
+				    <dt class="lf">
+					   <span class="color">*</span>&nbsp;
+					   <font class="color">图片验证：</font>
+					</dt>
+				    <dd class="lf">
+					   <style></style>
+					   <div>
+					      <div id="embed-captcha"></div>
+						  <div>
+						     <p id="wait" class="show">正在加载验证码......</p>
+						     <p id="notice" class="hide">请先拖动验证码到响应位置</p>
+						  </div>
+					   </div>
+					</dd>
+				 </dl>
+                 <dl class="member clearfix">
+				    <dt class="lf">
+					   <span class="color">*</span>&nbsp;
+					   <font class="color">短信验证码：</font>
+					</dt>
+					<dd class="lf">
+					   <input type="text" class="in-txt" name="msgCode">
+					</dd>
+					<dd class="lf">
+					   <button class="code" id="down">获取验证码</button>
+					</dd>
+					<dd class="failinput lf">
+					   <i class="sign-icon">请输入验证码</i>
+					</dd>
+					<dd class="tip lf">
+					   <i class="sign-icon">已发送，验证码10分钟内有效</i>
+					</dd>
+				 </dl>
+                 <dl class="member clearfix">
+				    <dt class="lf">
+					   <span class="color">*</span>&nbsp;
+					   <font class="color">
+					      性别：
+					   </font>
+					</dt>
+					<dd class="lf">
+					   <select class="in-txt" name="sex" id="gender">
+					      <option value="男">男</option>
+					      <option value="女">女</option>
+					   </select>	
+					</dd>
+					<dd class="failinput lf">
+					   <i class="sign-icon">
+					      请输入6-18位密码
+					   </i>
+					</dd>
+				 </dl>
+                 <dl class="member clearfix">
+				    <dt class="lf">
+					   <span class="color">*</span>&nbsp;
+					   <font class="color">茶龄：</font>
+
+					</dt>
+					<dd class="lf">
+					   <input type="text" class="in-txt" name="chaling" id="tage">
+						<span id="yztage"></span>
+					</dd>
+					<dd class="failinput lf">
+					   <i class="sign-icon" >请输入茶龄</i>
+					</dd>
+				 </dl>
+                 <dl class="member clearfix">
+				    <dt class="lf">
+					   <span class="color">*</span>&nbsp;
+					   <font class="color">设置密码：</font>
+					</dt>
+					<dd class="lf">
+					   <input type="password" class="in-txt" name="password" id="password">
+						<span id="yzpwd"></span>
+					</dd>
+					<dd class="failinput lf">
+					   <i class="sign-icon">请输入6-18位密码</i>
+					</dd>
+				 </dl>
+                 <dl class="member clearfix">
+				    <dt class="lf">
+					   <span class="color">*</span>&nbsp;
+					   <font class="color">重复密码：</font>
+					</dt>
+					<dd class="lf">
+					   <input type="password" class="in-txt" id="cpwd">
+						<span id="yzcpwd"></span>
+					</dd>
+					<dd class="failinput lf">
+					   <i class="sign-icon"></i>请输入6-18位密码
+					</dd>
+				 </dl>
+                 <dl class="member clearfix">
+				    <dt class="lf">
+					   &nbsp;
+					</dt>
+					<dd class="lf">
+					   <span class="lf">
+					      <input type="checkbox" value="1">
+					   </span>
+					   <span class="lf">
+					      <a href="#" target="_blank">阅读并同意《不知名茶用户服务协议》</a>
+					   </span>
+					</dd>
+				 </dl>
+                 <dl class="member clearfix">
+				    <dt class="lf">&nbsp;</dt>
+					<dd class="lf">
+					   <input type="submit" class="btn-submit" id="btn-submit" value="提交注册">
+					</dd>
+				 </dl>
+			   </div>
+			 </form>
+		  </div>
+	      <div class="right lf">
+		     <h3 class="color">已有不知名茶账号？</h3>
+			 <a href="login.html" class="btn-login">登录</a>
+			 <h3 class="font">有任何问题请联系客服</h3>
+		     <div class="clearfix">
+		        <p class="lf">
+			       电话：
+				   <font class="color">010-59449886</font>
+			    </p>
+		        <p class="lf">
+			       微信：
+				   <font class="color">18801351492</font>
+			    </p>
+		        <p class="rt">
+			    </p>
+			 </div>
+		  </div>
+	   </div>
+	</div>
+	<!-- 底部 --> 
+	<footer id="footer">
+	</footer>
+    <script src="js/jquery-1.11.3.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/register.js"></script>
+</body>
+</html>
